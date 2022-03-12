@@ -2,7 +2,7 @@
 pipewire &
 pipewire-media-session &
 setxkbmap pt &
-picom --config ~/.conf/picom/picom.conf &
+picom --config ~/.config/picom/picom.conf &
 xwallpaper --zoom ~/pics/wallpaper.png &
 
 while true; do

@@ -39,6 +39,12 @@ sudo ln -sf /bin/dash /bin/sh
 ```
 
 
+# Wifi
+```
+sudo pacman -Sy dhcpcd wpa_supplicant
+```
+
+
 # dwm
 
 ![image](https://user-images.githubusercontent.com/68345611/158036862-040ecc3b-868b-4946-a6d3-137d663a283d.png)

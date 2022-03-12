@@ -1,5 +1,12 @@
 # Dotfiles
 
+
+**Install**
+```
+git clone https://github.com/JustCoww/dotfiles/ && mv dotfiles/* .
+```
+
+
 **Audio**
 ```
 sudo pacman -Sy pipewire pipewire-pulse pulsemixer pipewire-media-session

@@ -1,6 +1,19 @@
 # Dotfiles
 
+**dwm**
+
 ![image](https://user-images.githubusercontent.com/68345611/158036862-040ecc3b-868b-4946-a6d3-137d663a283d.png)
+
+
+**dmenu**
+
+![image](https://user-images.githubusercontent.com/68345611/158036938-aa2ba3ff-9a11-42ca-b67d-01afdded6208.png)
+
+
+**st**
+
+![image](https://user-images.githubusercontent.com/68345611/158036960-d6b12805-da18-4997-9995-2159ccb204e5.png)
+
 
 **Install**
 ```

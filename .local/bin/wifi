@@ -1,0 +1,12 @@
+#!/bin/sh
+
+interface=$(ls /sys/class/net/ | dmenu -l 10 -p "Which interface to use?")
+network=$(ls /etc/wpa_supplicant/networks | dmenu -l 10 -p "Which network to connect?")
+
+echo "| * | Killing wpa_supplicant..."
+sudo pkill wpa_supplicant
+
+sleep 1s
+
+echo -n "| + | "
+sudo wpa_supplicant -B -c /etc/wpa_supplicant/networks/$network -i $interface

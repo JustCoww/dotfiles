@@ -3,7 +3,7 @@
 
 **Install**
 ```
-cd ~ && git clone https://github.com/JustCoww/dotfiles/ && rm -rf dotfiles/.git && mv dotfiles/.* . && mv dotfiles/* .
+git clone https://github.com/JustCoww/dotfiles/ ~/dotfiles && rm -rf dotfiles/.git && mv dotfiles/.* . && mv dotfiles/* .
 ```
 
 **Build**

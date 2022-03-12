@@ -3,7 +3,12 @@
 
 **Install**
 ```
-git clone https://github.com/JustCoww/dotfiles/ && mv dotfiles/* .
+cd ~ && git clone https://github.com/JustCoww/dotfiles/ && rm -rf dotfiles/.git && mv dotfiles/.* . && mv dotfiles/* .
+```
+
+**Build**
+```
+ cd ~/.suckless/dmenu ; sudo make clean install ; sleep 1s ; cd ../dwm ; sudo make clean install ; sleep 1s ; cd ../st ; sudo make clean install
 ```
 
 

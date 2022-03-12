@@ -1,0 +1,16 @@
+Print
+	maim --select | tee ~/pics/screenshots/$(date +%s).jpg | xclip -sel c -t image/jpg
+
+shift + Print 
+	maim | tee ~/code/PSI/$(date +%s).jpg | xclip -sel c -t image/jpg
+
+XF86Audio{RaiseVolume,LowerVolume,Mute}
+	pamixer -{i,d,t} 2 && pkill sleep
+
+XF86MonBrightness{Up,Down}
+	brightnessctl s {+20%,20%-}
+
+super + Escape
+	system_action
+super + shift + c
+	code

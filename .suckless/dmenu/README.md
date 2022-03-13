@@ -2,6 +2,8 @@ dmenu - dynamic menu
 ====================
 dmenu is an efficient dynamic menu for X.
 
+![image](https://user-images.githubusercontent.com/68345611/158036938-aa2ba3ff-9a11-42ca-b67d-01afdded6208.png)
+
 
 Requirements
 ------------

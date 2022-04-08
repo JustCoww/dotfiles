@@ -63,6 +63,8 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
+#define XK_BrightUp    0x1008FF02 /* Brightness up        */
+#define XK_BrightDown  0x1008FF03  /* Brightness down */
 #define XK_AudioDown   0x1008FF11   /* Volume control down        */
 #define XK_AudioUp	0x1008FF13   /* Volume control up          */
 #define MODKEY Mod4Mask
@@ -85,11 +87,13 @@ static const char *voldown[]  = {"pulsemixer", "--change-volume", "-10", NULL};
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ 0,							XK_Print,     spawn,       SHCMD("maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i") },
-    { MODKEY,						XK_BackSpace, spawn,       {.v = dmenucmd } },
-    { MODKEY,						XK_Return,	  spawn,       {.v = termcmd  } },  
-    { 0,                            XK_AudioUp,   spawn, 	   {.v = volup    } },
-    { 0,                            XK_AudioDown, spawn, 	   {.v = voldown  } },
+	{ 0,				XK_Print,     spawn,       SHCMD("maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i") },
+    	{ MODKEY,			XK_BackSpace, spawn,       {.v = dmenucmd } },
+    	{ MODKEY,			XK_Return,    spawn,       {.v = termcmd  } },  
+    	{ 0,                            XK_AudioUp,   spawn, 	   {.v = volup    } },
+    	{ 0,                            XK_AudioDown, spawn, 	   {.v = voldown  } },
+	{ 0,				XK_BrightUp,  spawn,  	   {.v = brightup } },
+	{ 0,				XK_BrightDown,spawn,  	   {.v = brightdown } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },

@@ -93,7 +93,7 @@ static Key keys[] = {
     	{ 0,                            XK_AudioUp,   spawn, 	   {.v = volup    } },
     	{ 0,                            XK_AudioDown, spawn, 	   {.v = voldown  } },
 	{ 0,				XK_BrightUp,  spawn,  	   {.v = brightup } },
-	{ 0,				XK_BrightDown,spawn,  	   {.v = brightdown } },
+	{ 0,				XK_BrightDown, spawn,  	   {.v = brightdown } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },

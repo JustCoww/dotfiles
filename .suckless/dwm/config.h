@@ -63,10 +63,10 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
-#define XK_BrightUp    0x1008FF02 /* Brightness up        */
-#define XK_BrightDown  0x1008FF03  /* Brightness down */
-#define XK_AudioDown   0x1008FF11   /* Volume control down        */
-#define XK_AudioUp	0x1008FF13   /* Volume control up          */
+#define XK_BrightUp    0x1008FF02   /* Brightness up */
+#define XK_BrightDown  0x1008FF03   /* Brightness down */
+#define XK_AudioDown   0x1008FF11   /* Volume control down */
+#define XK_AudioUp     0x1008FF13   /* Volume control up */
 #define MODKEY Mod4Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
@@ -84,6 +84,8 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon };
 static const char *termcmd[]  = { "st", NULL };
 static const char *volup[]    = {"pulsemixer", "--change-volume", "+10", NULL};
 static const char *voldown[]  = {"pulsemixer", "--change-volume", "-10", NULL};
+static const char *brightup[] = { "brightnessctl", "set", "+30", NULL };
+static const char *brightdown[] = { "brightnessctl", "set", "30-", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */

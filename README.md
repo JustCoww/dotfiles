@@ -22,7 +22,7 @@ sudo pacman -Sy pipewire pipewire-pulse pulsemixer pipewire-media-session
 
 # Xorg
 ```
-sudo pacman -Sy xorg-server xorg-xinit xwallpaper libx11 libxinerama libxft webkit2gtk picom
+sudo pacman -Sy xorg-server xorg-xinit xorg-xsetroot xwallpaper libx11 libxinerama libxft webkit2gtk picom
 ```
 
 

@@ -41,7 +41,7 @@ sudo ln -sf /bin/dash /bin/sh
 
 # Others
 ```
-sudo pacman -Sy thunar sxiv mpv gvfs thunar-volman man-db htop xarchiver maim xclip
+sudo pacman -Sy thunar sxiv mpv gvfs thunar-volman man-db htop xarchiver maim xclip p7zip unrar unzip
 ```
 
 # Wifi

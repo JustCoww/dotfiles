@@ -39,6 +39,11 @@ sudo ln -sf /bin/dash /bin/sh
 ```
 
 
+# File Manager
+```
+sudo pacman -Sy thunar
+```
+
 # Wifi
 ```
 sudo pacman -Sy dhcpcd wpa_supplicant

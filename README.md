@@ -41,7 +41,7 @@ sudo ln -sf /bin/dash /bin/sh
 
 # Others
 ```
-sudo pacman -Sy thunar sxiv mpv
+sudo pacman -Sy thunar sxiv mpv gvfs thunar-volman man-db htop
 ```
 
 # Wifi

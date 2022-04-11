@@ -39,9 +39,9 @@ sudo ln -sf /bin/dash /bin/sh
 ```
 
 
-# File Manager
+# Others
 ```
-sudo pacman -Sy thunar
+sudo pacman -Sy thunar sxiv mpv
 ```
 
 # Wifi

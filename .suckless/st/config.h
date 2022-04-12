@@ -7,6 +7,7 @@
  */
 static char *font = "FiraMono-Regular:size=12";
 static int borderpx = 2;
+#include "themes/google.h"
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -92,7 +93,6 @@ char *termname = "st-256color";
  *	stty tabs
  */
 unsigned int tabspaces = 8;
-#include "themes/bubblegum.h"
 
 /*
  * Default shape of cursor

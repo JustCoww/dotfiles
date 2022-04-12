@@ -1,9 +1,8 @@
 #!/bin/sh
-pipewire &
 pipewire-media-session &
 setxkbmap pt &
 picom --config ~/.config/picom/picom.conf &
-xwallpaper --zoom ~/pics/wallpaper.png &
+xwallpaper --zoom ~/pics/wallpaper/gentoo-wallpaper.png &
 
 while true; do
 	xsetroot -name " $(date +%R) $(date +"%A %d %B") "

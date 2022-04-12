@@ -26,4 +26,5 @@ cp -rf pics ~/
 echo "Everything installed."
 echo "Rebooting in 10 seconds..."
 echo "Press CTRL+C to stop"
+sleep 10s
 sudo reboot

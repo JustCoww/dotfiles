@@ -5,7 +5,8 @@ if status is-interactive
 	set BROWSER "firefox-bin"
 
 	# Alias
-	alias turnoff "sudo openrc-shutdown -p 0"
+	alias off "sudo shutdown now"
+	alias bluetooth-gui "blueman-applet & blueman-manager"
 	alias logout-lock "pkill -KILL -u $USER"
 	alias ls "ls -a"
 

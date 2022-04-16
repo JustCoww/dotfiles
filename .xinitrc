@@ -11,7 +11,7 @@ while true; do
         date=$(date +"%R %d/%m/%Y")
 
         xsetroot -name " $volume% | $battery | $date "
-        sleep 5s
+        sleep 1s
 done &
 
 

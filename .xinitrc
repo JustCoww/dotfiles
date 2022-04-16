@@ -5,8 +5,14 @@ picom --config ~/.config/picom/picom.conf &
 xwallpaper --zoom ~/pics/wallpapers/gentoo-wallpaper.png &
 
 while true; do
-	xsetroot -name " $(date +%R) $(date +"%A %d %B") "
-	sleep 1m
+        volume_str="$(pulsemixer --get-volume)"
+        volume="Vol: ${volume_str#* }"
+        battery="Power: $(cat /sys/class/power_supply/BAT1/capacity)%"
+        date=$(date +"%R %d/%m/%Y")
+
+        xsetroot -name " $volume% | $battery | $date "
+        sleep 5s
 done &
+
 
 exec dwm

@@ -1,20 +1,20 @@
 #!/usr/bin/fish
 function fish_prompt
-	set_color red --bold
+	set_color brwhite --bold
 	printf "["
-	set_color yellow
+	set_color brmagenta
 	printf "%s" "$USER"
-	set_color red --bold
+	set_color brwhite --bold
 	printf "@"
-	set_color magenta
+	set_color brcyan
 	printf "%s" "$hostname"
-	set_color cyan
+	set_color white 
 	if test $PWD = /home/$USER
 		 printf " %s" "~" 
 	else
 		 printf " %s" "$PWD"
 	end
-	set_color red
+	set_color brwhite --bold
 	printf "] "
 	set_color normal
 end

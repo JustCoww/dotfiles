@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Installing the... th thvin s crazy"
-sudo pacman -Sy pipewire pipewire-pulse pulsemixer pipewire-media-session xorg-server xorg-xinit xorg-xsetroot xwallpaper libx11 libxinerama libxft webkit2gtk picom thunar sxiv mpv gvfs thunar-volman man-db htop xarchiver maim xclip p7zip unrar unzip dhcpcd wpa_supplicant fish dash bluez blueman firefox flowblade
+sudo pacman -S $(cat packages | cut -d' ' -f1)
 
 sudo systemctl enable bluetooth
 

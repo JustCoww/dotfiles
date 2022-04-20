@@ -56,6 +56,80 @@ sudo pacman -Sy thunar sxiv mpv gvfs thunar-volman man-db htop xarchiver maim xc
 sudo pacman -Sy dhcpcd wpa_supplicant
 ```
 
+# Packages
+**pipewire** Audio
+
+**pipewire-pulse** Audio
+
+**pulsemixer** Audio
+
+**pipewire-media-session** Audio
+
+**xorg-server** Xorg
+
+**xorg-xinit** Xorg
+
+**xorg-xsetroot** Xorg
+
+**xwallpaper** Xorg
+
+**libx11** Xorg
+
+**libxinerama** Xorg
+
+**libxft** Xorg
+
+**webkit2gtk** Xorg
+
+**picom** Compositor
+
+**thunar** File browser
+
+**thunar-volman** Drive mounter or something
+
+**gvfs** Drive mounter or something
+
+**sxiv** Image Viewer
+
+**mpv** Video Player
+
+**man-db** Manual Pages
+
+**htop** Process Manager
+
+**xarchiver** Archiver
+
+**maim** Screenshot
+
+**xclip** Screenshot
+
+**p7zip** Archiver
+
+**unrar** Archiver
+
+**unzip** Archiver
+
+**dhcpcd** Network thing
+
+**wpa_supplicant** Wifi connection
+
+**fish** Shell
+
+**dash** Shell (Replacing /bin/sh)
+
+**bluez** Bluetooth tools
+
+**blueman** Bluetooth GUI
+
+**firefox** Web Browser
+
+**flowblade** Video editor
+
+**gnome-boxes** Virtual machines manager
+
+**python-pip** pip package manager
+
+**lxrandr** Display tools
 
 # dwm
 

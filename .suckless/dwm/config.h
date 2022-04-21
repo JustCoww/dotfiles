@@ -84,8 +84,9 @@ static const char *brightdown[] = { "brightnessctl", "set", "30-", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ 0,				XK_Print,     spawn,       SHCMD("maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i") },
-    	{ MODKEY,			XK_BackSpace, spawn,       {.v = dmenucmd } },
+	{ 0,				XK_Print,     spawn,       SHCMD("maim -s -f png /dev/stdout | xclip -selection clipboard -t image/png -i") },
+	{ MODKEY,			XK_Print,     spawn,	   SHCMD("maim -f png -s ~/pics/screenshots/$(date +'%H:%M:%S_%d-%m-%Y').png") },
+	{ MODKEY,			XK_BackSpace, spawn,       {.v = dmenucmd } },
     	{ MODKEY,			XK_Return,    spawn,       {.v = termcmd  } },  
     	{ 0,                            XK_AudioUp,   spawn, 	   {.v = volup    } },
     	{ 0,                            XK_AudioDown, spawn, 	   {.v = voldown  } },

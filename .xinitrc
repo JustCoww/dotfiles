@@ -2,7 +2,7 @@
 pipewire-media-session &
 setxkbmap pt &
 picom --config ~/.config/picom/picom.conf &
-xwallpaper --zoom ~/pics/wallpapers/gentoo-wallpaper.png &
+xwallpaper --zoom ~/pics/wallpapers/gentoo-night-wallpaper.png &
 
 while true; do
         volume_str="$(pulsemixer --get-volume)"

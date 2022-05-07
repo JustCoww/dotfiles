@@ -1,18 +1,17 @@
 if status is-interactive
 	# Variables
-	set TERMINAL "st"
-	set EDITOR "vim"
-	set BROWSER "firefox-bin"
+	set EDITOR "/bin/nvim"
+	set BROWSER "/bin/firefox"
 
 	# Alias
-	alias off "sudo shutdown now"
-	alias bluetooth-gui "blueman-applet & blueman-manager"
-	alias logout-lock "pkill -KILL -u $USER"
+	alias vim "nvim"
+	alias bluetooth-gui "sudo systemctl start bluetooth ; blueman-applet & blueman-manager"
+	alias bluetooth-off "sudo systemctl stop bluetooth"
 	alias ls "ls -a"
 
 	# FISH greeting
 	function fish_greeting
-		neofetch --disable Kernel "WM Theme" Theme Icons Resolution GPU CPU Shell DE --ascii_distro "gentoo_small"
+		neofetch --disable Kernel "WM Theme" Theme Icons Resolution GPU CPU Shell DE --ascii_distro "arch_small"
 	end
 
 	# Add local bin scripts

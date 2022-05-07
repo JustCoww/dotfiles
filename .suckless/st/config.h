@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraMono-Regular:size=12";
-static int borderpx = 2;
-#include "themes/google.h"
+static char *font = "Fira Mono:size=12";
+static int borderpx = 25;
+#include "themes/googlemoz.h"
 
 /*
  * What program is execed by st depends of these precedence rules:

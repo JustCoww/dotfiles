@@ -10,11 +10,10 @@ static const unsigned int gappov    = 10;       /* vert outer gap between window
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "FiraMono-Bold:size=16:antialias=true",
-					"JetBrainsMono Nerd Font:size=13:antialias=true"};
+static const char *fonts[]          = {"Fira Mono:size=16", "JetBrainsMono Nerd Font:size=13:antialias=true"};
 
 /* theme */
-#include "themes/blueice.h"
+#include "themes/moz.h"
 
 /* tagging */
 static char *tags[] = {"   ", "   ", "   ", "   ",};

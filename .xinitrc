@@ -2,15 +2,16 @@
 pipewire-media-session &
 setxkbmap pt &
 picom --config ~/.config/picom/picom.conf &
-xwallpaper --zoom ~/pics/wallpapers/gentoo-night-wallpaper.png &
+xwallpaper --zoom ~/pics/wallpapers/gentoo-wallpaper.png &
 
 while true; do
         volume_str="$(pulsemixer --get-volume)"
         volume="Vol: ${volume_str#* }"
-        battery="Power: $(cat /sys/class/power_supply/BAT1/capacity)%"
-        date=$(date +"%R %d/%m/%Y")
+	weekday=$(date +"%A")
+	time=$(date +"%R")
+        date=$(date +"%d/%m/%Y")
 
-        xsetroot -name " $volume% | $battery | $date "
+        xsetroot -name " $volume% | $weekday | $time | $date "
         sleep 1s
 done &
 

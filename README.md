@@ -1,6 +1,9 @@
 # .dotfiles
 
+
 dwm, st some script and something idk, but... **let's talk about about me, let's talk about the 6'8 frame the 37 in verticle leap...the black steel that drapes down my back aka the bullet proof mullet, the google prototype scopes with built in LCD LED 1080p 3D sony technology. The Ethiopian poisonous catapillar aka SLICK DADDY. lets talk about the cabinets right behind me that go 40ft deep that house the other 95% of my trophies, the awards, the certificates, all claiming first place, right? Let me give you a little inside glimpse into the hotshot, video game life style of the two time of the international video game superstar. because thats what the channels about, thats what this domain is about, that is what society is about. you are looking at the new face of twitch and GODDAMN is twitch lucky... thats just off the top of my head.**
+
+![cena](https://user-images.githubusercontent.com/68345611/167289502-5c3797e4-5c3a-4cb1-a6a9-0f9e3336dfc2.png)
 
 # For my apps and shit use the "install.sh"
 ```
@@ -132,15 +135,12 @@ sudo pacman -Sy dhcpcd wpa_supplicant
 **lxrandr** Display tools
 
 # dwm
-
-![image](https://user-images.githubusercontent.com/68345611/158036862-040ecc3b-868b-4946-a6d3-137d663a283d.png)
+![image](https://user-images.githubusercontent.com/68345611/167289806-df3533ed-39a4-4be0-a291-9b10e7e74c37.png)
 
 
 # dmenu
-
-![image](https://user-images.githubusercontent.com/68345611/158036938-aa2ba3ff-9a11-42ca-b67d-01afdded6208.png)
+![image](https://user-images.githubusercontent.com/68345611/167289985-34f8633f-cfcc-44c3-b803-3f4280fb944f.png)
 
 
 # st
-
-![image](https://user-images.githubusercontent.com/68345611/158036960-d6b12805-da18-4997-9995-2159ccb204e5.png)
+![image](https://user-images.githubusercontent.com/68345611/167289725-11b436bc-d70d-467b-8129-750995bb86a5.png)

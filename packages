@@ -18,6 +18,7 @@ sxiv
 mpv
 man-db
 htop
+bashtop
 xarchiver
 maim
 xclip
@@ -31,7 +32,6 @@ dash
 bluez
 blueman
 firefox
-flowblade
 gnome-boxes
 python-pip
 lxrandr

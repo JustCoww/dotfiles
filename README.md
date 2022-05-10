@@ -126,8 +126,6 @@ sudo pacman -Sy dhcpcd wpa_supplicant
 
 **firefox** Web Browser
 
-**flowblade** Video editor
-
 **gnome-boxes** Virtual machines manager
 
 **python-pip** pip package manager
